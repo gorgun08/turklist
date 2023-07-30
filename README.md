@@ -1,1 +1,0 @@
-# turklist.github.io
