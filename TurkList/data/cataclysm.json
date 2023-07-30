@@ -1,0 +1,17 @@
+{
+    "id": 62214792,
+    "name": "Cataclysm",
+    "author": "Ggb0y",
+    "creators": ["Ggb0y"],
+    "verifier": "Nurox",
+    "verification": "https://www.youtube.com/watch?v=fyMlA8Y_A3Y",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "RD24GD",
+            "link": "https://youtu.be/mIWvUkSZoYQ",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
