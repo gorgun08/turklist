@@ -103,6 +103,9 @@ export default {
                             </li>
                         </ol>
                     </template>
+                    <p>
+                    (Bu list "The Shitty List"i template alarak yapılmıştır.)
+                    </p>
                     <h3>Record Gereksinimleri</h3>
                     <p>
                     Recordun hilesiz olduğuna dair kesin bir kanıt olmalı.
