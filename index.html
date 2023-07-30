@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta property="og:title" content="Türk List" />
+    <meta property="og:description"
+        content="Geometry Dash Türkiye'nin geçtiği en zor demonlar!" />
+    <meta property="og:url" content="https://turklist.github.io/" />
+    <meta property="og:image" content="/tsl_icon.png" />
+    <title>Türk List</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/css/typography.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pages/leaderboard.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pages/roulette.css" />
+    <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
+    <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
+    <link rel="stylesheet" type="text/css" href="/css/components/tabs.css" />
+    <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
+    <script type="module" src="/js/main.js"></script>
+</head>
+<body id="app">
+    <div class="root" :class="{ dark: store.dark, shitty: store.shitty }">
+        <header class="surface">
+            <div class="logo">
+                <img v-if="store.shitty" src="assets/april-logo.png" alt="TSL Logo" />
+                <div v-else class="logo">
+                    <h2>Türk List</h2>
+                    <p>v3.2.4</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <router-link class="nav__tab" to="/">
+                    <span class="type-label-lg">Liste</span>
+                </router-link>
+                <router-link class="nav__tab" to="/leaderboard">
+                    <span class="type-label-lg">Oyuncu Listesi</span>
+                </router-link>
+                <router-link class="nav__tab" to="/roulette">
+                    <span class="type-label-lg">Rulet</span>
+                </router-link>
+                <div class="nav__actions">
+                    <button
+                        class="nav__icon toggle-shitty"
+                        @click.prevent="store.toggleShitty()"
+                    >
+                        <img
+                            src="https://cdn.discordapp.com/attachments/1124442295714983980/1134920468621697164/komposto.png"
+                            alt="Türkü (✿◡‿◡) Mode"
+                        />
+                    </button>
+                    <button
+                        class="nav__icon"
+                        @click.prevent="store.toggleDark()"
+                    >
+                        <img
+                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
+                            alt=""
+                        />
+                    </button>
+                    <a class="nav__icon" href="https://discord.com/invite/aR8BmktE5M">
+                        <img src="/assets/discord.svg" alt="Discord Logo" />
+                    </a>
+                    <a class="nav__cta type-label-lg"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSciKOXjdH1wCxqX7Y_fl-zgMeoApwCRe1DVAHCQm8K1iNmSEA/viewform"
+                        target="_blank">Record At</a>
+                </div>
+            </nav>
+        </header>
+        <router-view></router-view>
+    </div>
+</body>
+
+</html>
