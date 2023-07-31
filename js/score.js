@@ -11,10 +11,10 @@ const scale = 3;
  * @returns {Number}
  */
 export function score(rank, percent, minPercent) {
-    if (rank > 50) {
+    if (rank > 50) { //legacy
         return 0;
     }
-    if (rank > 30 && percent < 100) {
+    if (rank > 30 && percent < 100) { //extended
         return 0;
     }
 
