@@ -7,6 +7,12 @@
     "verification": "https://youtu.be/WCNnyWlTCTk",
     "percentToQualify": 67,
     "records": [
+        {
+            "user": "WaxySs",
+            "percent": 100,
+            
+            "hz": 165
+        }
 
     ]
 }

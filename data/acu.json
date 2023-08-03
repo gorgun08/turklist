@@ -48,6 +48,12 @@
             "link": "https://www.youtube.com/watch?v=436JpY42brE",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "WaxySs",
+            "percent": 100,
+            
+            "hz": 360
         }
     ]
 }
