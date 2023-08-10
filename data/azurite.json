@@ -12,6 +12,12 @@
             "percent": 100,
             
             "hz": 240
+        },
+        {
+            "user": "gorgun",
+            "link": "https://youtu.be/xEeg_9sYp6M",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
