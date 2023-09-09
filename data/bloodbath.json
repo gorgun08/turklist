@@ -7,6 +7,11 @@
     "verification": "https://www.youtube.com/watch?v=ulzXuUxcjtk&t=0s",
     "percentToQualify": 70,
     "records": [
-
+        {
+            "user": "meaty",
+            "link": "https://youtu.be/tntj1Sig1f8",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
