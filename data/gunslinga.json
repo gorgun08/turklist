@@ -8,6 +8,11 @@
     "verification": "https://youtu.be/95KYiHVgQnM",
     "percentToQualify": 70,
     "records": [
-
+        {
+            "user": "RD24GD",
+            "link": "https://youtu.be/LKJQWrfoqD0",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
