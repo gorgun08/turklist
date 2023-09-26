@@ -3,10 +3,16 @@
     "name": "Bloodbath",
     "author": "Riot",
     "creators": ["Giron", "weoweoteo", "Vermillion", "Michigun", "Evasium", "Crack", "Asonicmen", "Etzer", "Havok", "Riot", "Ggb0y"],
-    "verifier": "youngs6",
-    "verification": "https://www.youtube.com/watch?v=ulzXuUxcjtk&t=0s",
+    "verifier": "Yarkii",
+    "verification": "https://youtu.be/isqR37RbW80?list=PLnkbZgFP0hg9DV80khywkzD24uyUeTE-n",
     "percentToQualify": 70,
     "records": [
+        {
+            "user": "youngs6",
+            "link": "https://youtu.be/ulzXuUxcjtk",
+            "percent": 100,
+            "hz": 360
+        },
         {
             "user": "meaty",
             "link": "https://youtu.be/tntj1Sig1f8",

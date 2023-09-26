@@ -8,6 +8,12 @@
     "percentToQualify": 100,
     "records": [
         {
+            "user": "Yarkii",
+            "link": "https://youtu.be/ADVqeS4IzGw",
+            "percent": 100,
+            "hz": 300
+        },
+        {
             "user": "Fondler",
             "link": "https://youtu.be/_8LVCDAA_w8",
             "percent": 100,
