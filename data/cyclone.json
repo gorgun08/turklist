@@ -3,10 +3,15 @@
     "name": "CYCLONE",
     "author": "BIANOX",
     "creators": ["BIANOX"],
-    "verifier": "Evvolin",
-    "verification": "https://youtu.be/DZLf6q1GOQQ",
+    "verifier": "Pikonom",
+    "verification": "https://youtu.be/DoGLGb3oXpM",
     "percentToQualify": 100,
     "records": [
-
+        {
+            "user": "Evvolin",
+            "link": "https://youtu.be/DZLf6q1GOQQ",
+            "percent": 100,
+            "hz": 165
+        }
     ]
 }
