@@ -7,6 +7,11 @@
     "verification": "https://youtu.be/5qQcj-uFDV4",
     "percentToQualify": 100,
     "records": [
-
+        {
+            "user": "Nurox",
+            "link": "https://youtu.be/tbqKrX6cQMU",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
