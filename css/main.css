@@ -8,6 +8,7 @@
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
+    --amk: #e7857e;
 }
 
 .dark.root {
@@ -21,6 +22,7 @@
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
+    --amk: #804541;
 }
 
 .shitty.root {

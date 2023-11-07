@@ -18,6 +18,11 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-leaderboard-container">
+
+        <router-link to="/leaderboard2">
+        <button class="button">Challenge List Oyuncu Listesi</button>
+        </router-link>
+
             <div class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
@@ -43,6 +48,7 @@ export default {
                 </div>
                 <div class="player-container surface">
                     <div class="player">
+                    <h1>Demon Listesi</h1>
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h3>{{ entry.total }}</h3>
                         <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>

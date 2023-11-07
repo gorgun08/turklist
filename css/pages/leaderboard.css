@@ -108,4 +108,89 @@
 .shitty .page-leaderboard .board .user.active button {
     background-color: transparent;
     color: orange;
+
+    
+    /* TÜRKÜ */
 }
+.button{
+
+    background-color: var(--color-primary);
+
+    border: none;
+
+    color: rgb(255, 255, 255);
+
+    padding: 8px 12px;
+
+    text-align: center;
+
+    text-decoration: sans-serif;
+
+    display: inline-block;
+
+    font-size: 24px;
+
+    margin: 12px 12px;
+
+    cursor: pointer;
+
+    box-shadow:10px 4px rgba(0, 0, 0, 0.233);
+    
+    border-radius: 5px
+}
+
+.button:hover {
+
+ background-color: var(--amk);
+
+ color: rgb(0, 0, 0);
+}
+
+.shitty .button{
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    color: rgb(255, 255, 255);
+
+    padding: 4px 12px;
+
+    text-align: center;
+
+    text-decoration: sans-serif;
+
+    display: inline-block;
+
+    font-size: 24px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+    
+    border-radius: 5px
+}
+
+.shitty .button:hover{
+
+    background-color: rgba(0, 0, 0, 0.425);
+
+    color: rgb(255, 255, 255);
+
+    padding: 4px 12px;
+
+    text-align: center;
+
+    text-decoration: sans-serif;
+
+    display: inline-block;
+
+    font-size: 24px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+    
+    border-radius: 5px
+}
+
+
+

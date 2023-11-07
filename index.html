@@ -23,6 +23,8 @@
     <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pages/nav.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pages/core.css" />
     <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
     <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
     <script type="module" src="/js/main.js"></script>
@@ -34,12 +36,30 @@
                 <img v-if="store.shitty" src="assets/april-logo.png" alt="TSL Logo" />
                 <div v-else class="logo">
                     <h2>Türk List</h2>
-                    <p>v3.2.5</p>
+                    <p>v4.2.5</p>
                 </div>
             </div>
             <nav class="nav">
+                
+        <!--       <div class="nav-group">
+                    <a class="nav-item hover">
+                        <span class="type-label-lg">
+                            <span>TrList</span>
+                        </span>
+                    </a>
+                    <ul class="nav-hover-dropdown">
+                        <li>
+                            <a class="white hover" href="/#/">Demon</a>
+                        </li>
+                        <li>
+                            <a class="white hover" href="/#/challenge">Challenge</a>
+                        </li>
+                </div> -->
                 <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">Liste</span>
+                    <span class="type-label-lg">Demon Listesi</span>
+                </router-link>
+                <router-link class="nav__tab" to="/challenge">
+                    <span class="type-label-lg">Challenge Listesi</span>
                 </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
                     <span class="type-label-lg">Oyuncu Listesi</span>

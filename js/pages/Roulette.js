@@ -27,7 +27,7 @@ export default {
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Başla' : 'Sıfırla'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
-                    Rulet otomatik olarak kaydedilir.   
+                    Rulet otomatik olarak kaydedilir. Rulette challenge levelleri yoktur.   
                 </p>
                 <form class="save">
                     <p>Manuel Yükleme/Kaydetme</p>
