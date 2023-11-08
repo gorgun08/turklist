@@ -103,9 +103,9 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <p>
+                    <h7>
                     (Bu list "The Shitty List"i template alarak yapılmıştır.)
-                    </p>
+                    </h7>
                     <h3>Record Gereksinimleri</h3>
                     <p>
                     Listte olmayan bir level geçtiyseniz eklenmesi için levelin "GDSR Wave"de ya da "Challenge List"te olması gerekmektedir.
