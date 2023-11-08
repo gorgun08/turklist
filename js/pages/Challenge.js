@@ -64,8 +64,8 @@ export default {
                         </li>
                     </ul>
                     <h2>Recordlar</h2>
-                    <p v-if="selected + 1 <= 30">Record atabilmek için <strong>{{ level.percentToQualify }}%</strong> ya da daha fazla yap</p>
-                    <p v-else-if="selected +1 <= 150">Record atabilmek için <strong>100%</strong> ya da daha fazla yap</p>
+                    <p v-if="selected + 1 <= 30">Record atabilmek için <strong>{{ level.percentToQualify }}%</strong> yap</p>
+                    <p v-else-if="selected +1 <= 150">Record atabilmek için <strong>100%</strong> yap</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -108,28 +108,16 @@ export default {
                     </p>
                     <h3>Record Gereksinimleri</h3>
                     <p>
-                    Recordun hilesiz olduğuna dair kesin bir kanıt olmalı.
+                    Listte olmayan bir level geçtiyseniz eklenmesi için levelin "GDSR Wave"de ya da "Challenge List"te olması gerekmektedir.
                     </p>
                     <p>
-                    Raw footage minimum 3-5 dakika olmalı ve geçmeden önceki attempti de göstermelidir.
+                    Eğer geçtiğiniz level Challenge List'te top 200 veya üstüyse, recordunuzun Challenge List'te de kabul edilmiş olması gerekiyor.
                     </p>
                     <p>
-                    Eğer leveli levele girdiğiniz ilk attemptte geçtiyseniz levele girmeden önce menünün kaydını da gösteriniz.
+                    Challenge levellerinde "Hitboxes on Death" hilesi yasaktır.
                     </p>
                     <p>
-                    Raw footage videonun sesini değiştirmeyiniz.
-                    </p>
-                    <p>
-                    Click sesleri ve mümkünse CPS göstergesi bulunmalıdır.
-                    </p>
-                    <p>
-                    Geçtiğiniz levelin id'si ile listteki id uyuşmalıdır.
-                    </p>
-                    <p>
-                    Level editlenmemiş olmalıdır.
-                    </p>
-                    <p>
-                    LEGACY RECORDLARI KABUL EDİLMİYOR!!!
+                    Bu kurallar dışında Demon Listesindeki kurallar burda da geçerlidir.
                     </p>
                 </div>
             </div>

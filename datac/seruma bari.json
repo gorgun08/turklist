@@ -1,0 +1,17 @@
+{
+    "id": 90871401,
+    "name": "seruma bari",
+    "author": "EvoPot",
+    "creators": ["EvoPot"],
+    "verifier": "EvoPot",
+    "verification": "https://youtu.be/WC0WvN6y960",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "gorgun",
+            "link": "https://youtu.be/iUz-VkXRGgM",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
