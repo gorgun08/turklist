@@ -3,10 +3,22 @@
     "name": "Cataclysm",
     "author": "Ggb0y",
     "creators": ["Ggb0y"],
-    "verifier": "youngs6",
-    "verification": "https://youtu.be/UyCWMYJ7Tqg",
+    "verifier": "Yarkii",
+    "verification": "https://youtu.be/WeccaiNCapQ",
     "percentToQualify": 100,
     "records": [
+        {
+            "user": "Holojen",
+            "link": "https://youtu.be/omU_LLKtVs8",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "youngs",
+            "link": "https://youtu.be/UyCWMYJ7Tqg",
+            "percent": 100,
+            "hz": 360
+        },
         {
             "user": "Pikonom",
             "link": "https://youtu.be/fovBuTIWFmw",
