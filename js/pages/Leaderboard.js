@@ -18,18 +18,17 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-leaderboard-container">
-
-        <router-link to="/leaderboard2">
-        <button class="button">Challenge List Oyuncu Listesi</button>
-        </router-link>
-
             <div class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
+                    <router-link to="/leaderboard2">
+                    <button class="button">Challenge List Oyuncu Listesi</button>
+                    </router-link>
                 </div>
                 <div class="board-container surface">
+                
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
