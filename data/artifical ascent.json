@@ -19,6 +19,12 @@
             "link": "https://youtu.be/3fio4viMQVQ",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "Astaroth",
+            "link": "https://youtu.be/KK2zaL7myX4",
+            "percent": 100,
+            "hz": "72/144"
         }
     ]
 }
