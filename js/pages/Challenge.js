@@ -108,7 +108,7 @@ export default {
                     </h7>
                     <h3>Record Gereksinimleri</h3>
                     <p>
-                    Listte olmayan bir level geçtiyseniz eklenmesi için levelin "GDSR Wave"de ya da "Challenge List"te olması gerekmektedir.
+                    Listte olmayan bir level geçtiyseniz eklenmesi için levelin "Challenge List"te olması gerekmektedir.
                     </p>
                     <p>
                     Eğer geçtiğiniz level Challenge List'te top 200 veya üstüyse, recordunuzun Challenge List'te de kabul edilmiş olması gerekiyor.
