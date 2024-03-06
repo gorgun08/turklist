@@ -7,6 +7,11 @@
     "verification": "https://youtu.be/82rnpDKG45Q",
     "percentToQualify": 58,
     "records": [
-
+        {
+            "user": "Yarkii",
+            "link": "https://youtu.be/m0widJnwyJc",
+            "percent": 87,
+            "hz": 300
+        }
     ]
 }
