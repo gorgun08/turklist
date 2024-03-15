@@ -24,6 +24,17 @@
     background-size: 100% 100% !important;
 }
 
+.packs-nav button p {
+    mix-blend-mode: normal;
+    color: rgb(255, 255, 255);
+    text-shadow:
+        3px 3px 0 #00000056,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
 .packs-nav > div {
     height: 100%;
     display: flex;
@@ -159,10 +170,11 @@
 .pack-list .meta .editors li a:hover {
     text-decoration: underline;
 }
-.tag p{
+.tag {
     font-family: "Lexend Deca", sans-serif;
     display: block;
     border-radius: 14px;
     color: white;
+    background-color: #5d5d5d;
     padding: 7px;
 }
