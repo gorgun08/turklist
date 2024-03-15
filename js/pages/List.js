@@ -1,5 +1,5 @@
 import { store } from '../main.js';
-import { embed } from '../util.js';
+import { embed, getFontColour } from '../util.js';
 import { score } from '../score.js';
 import { fetchEditors, fetchList } from '../content.js';
 
@@ -40,6 +40,11 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <div class="packs" v-if="level.packs.length > 0">
+                    <div v-for="pack in level.packs" class="tag" :style="{background:pack.colour}">
+                        <p :style="{color:getFontColour(pack.colour)}">{{pack.name}}</p>
+                    </div>
+                </div>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
                             <span class="type-label-lg">Verification</span>
@@ -187,5 +192,6 @@ export default {
 	methods: {
 		embed,
 		score,
+        getFontColour,
 	},
 };

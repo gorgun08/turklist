@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
     <link rel="stylesheet" type="text/css" href="/css/pages/leaderboard.css" />
     <link rel="stylesheet" type="text/css" href="/css/pages/roulette.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pages/listpacks.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/tabs.css" />
@@ -36,7 +37,7 @@
                 <img v-if="store.shitty" src="assets/april-logo.png" alt="TSL Logo" />
                 <div v-else class="logo">
                     <h2>Türk List</h2>
-                    <p>v4.3.6</p>
+                    <p>v5.4.6</p>
                 </div>
             </div>
             <nav class="nav">
@@ -58,14 +59,14 @@
                 <router-link class="nav__tab" to="/">
                     <span class="type-label-lg">Demon Listesi</span>
                 </router-link>
-                <router-link class="nav__tab" to="/challenge">
-                    <span class="type-label-lg">Challenge Listesi</span>
-                </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
                     <span class="type-label-lg">Oyuncu Sıralaması</span>
                 </router-link>
                 <router-link class="nav__tab" to="/roulette">
                     <span class="type-label-lg">Rulet</span>
+                </router-link>
+                <router-link class="nav__tab" to="/list-packs">
+                    <span class="type-label-lg">Paketler</span>
                 </router-link>
                 <div class="nav__actions">
                     <button

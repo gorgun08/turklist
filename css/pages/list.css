@@ -73,16 +73,29 @@
     align-items: center;
     gap: 1rem;
 }
+.page-list .level-container .level .packs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+.page-list .level-container .level .packs .tag {
+    display: flex;
+    flex-shrink: 0;
+    background-size: 100% 100% !important;
+}
+.tag {
+    border-radius: 7px;
+}
 .page-list .level-container .level .records {
     table-layout: fixed;
 }
-.page-list .level-container .level .records tr td:not(:last-child) {
+.page-list .level-container .level .records tr td:not(:last-child) .tag{
     padding-right: 1rem;
 }
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .user,
 .page-list .level-container .level .records .hz {
-    padding-block: 1rem;
+    padding: 1rem 1rem 1rem 0;
 }
 .page-list .level-container .level .records .user {
     width: 100%;
@@ -116,6 +129,12 @@
     flex-direction: column;
     gap: 0.75rem;
 }
+.page-list .meta .promote {
+    padding: 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    border-radius: 0.5rem;
+}
 .page-list .meta .editors li {
     display: flex;
     align-items: center;
@@ -144,4 +163,11 @@
 .shitty .page-list .list .level.active button {
     background-color: transparent;
     color: orange;
+}
+
+.tag {
+    font-family: "Lexend Deca", sans-serif;
+    display:block;
+    border-radius: 14px;
+    padding: 7px;
 }

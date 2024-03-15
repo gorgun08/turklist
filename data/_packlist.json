@@ -1,0 +1,112 @@
+[
+    {   
+        "name": "Hafıza Başlangıç Paketi",
+        "levels": [
+            "marathon",
+            "loop",
+            "lost love"
+        ],
+        "colour": "url('https://mat3e.github.io/brains/img/1.jpg')"
+    },
+    {   
+        "name": "Fırtına Paketi",
+        "levels": [
+            "tornado",
+            "hurricane",
+            "cyclone"
+        ],
+        "colour": "url('https://cdn.discordapp.com/attachments/944335768858533889/1218324835646705684/storm.jpg?ex=6607406c&is=65f4cb6c&hm=722b5c957aea96d9551b3580ea38579b6cf6fea796c6986f61b55a2f8ecbec16&')"
+    },  
+    {   
+        "name": "Cehennem Paketi",
+        "levels": [
+            "bloodbath",
+            "aftermath",
+            "cataclysm"
+        ],
+        "colour": "url('https://cdn.discordapp.com/attachments/944335768858533889/1218325270499430450/360_F_661869330_zudkYh4JGSj4t1Z2JfOoVv0aRO4xjln4.jpg?ex=660740d3&is=65f4cbd3&hm=f5b3145f65625b28619feb29c473a4a08c4a65fd7400c81bf5a1beb0e44c9856&')"
+    },
+    {   
+        "name": "XL Paket",
+        "levels": [
+            "phobos",
+            "fusion z",
+            "artifice"
+        ],
+        "colour": "url('https://www.tatilpanosu.net/wp-content/uploads/2023/01/konya_ilceleri_harita.png')"
+    },
+    {   
+        "name": "Kısa Paket",
+        "levels": [
+            "moment",
+            "prismatic haze",
+            "u235"
+        ],
+        "colour": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Districts_of_Yalova.png/1200px-Districts_of_Yalova.png')"
+    },
+    {   
+        "name": "Türk RGB Paketi",
+        "levels": [
+            "blade of justice",
+            "biohazard",
+            "bloodbath"
+        ],
+        "colour": "url('https://aliuyar.com/wp-content/uploads/rgb-renk-modeli-nedir-4.jpg')"
+    },
+    {   
+        "name": "Hafıza Uzman Paketi",
+        "levels": [
+            "retention rush",
+            "killbot",
+            "triple six"
+        ],
+        "colour": "url('https://e0.pxfuel.com/wallpapers/212/415/desktop-wallpaper-wg-general-thread-galaxy-brain.jpg')"
+    },
+    {   
+        "name": "Technopat Paketi",
+        "levels": [
+            "cybernetic crescent",
+            "digital descent",
+            "artifical ascent"
+        ],
+        "colour": "url('https://w0.peakpx.com/wallpaper/262/444/HD-wallpaper-artificial-intelligence-cyber-intelligence.jpg')"
+    },
+    {   
+        "name": "Yarkii Paketi",
+        "levels": [
+            "sunset sandstorm",
+            "killbot",
+            "hatred"
+        ],
+        "colour": "url('https://cdn.discordapp.com/attachments/805925232279420968/1008828577279656097/Screenshot_20220815-230302_Discord.jpg?ex=6601d8d3&is=65ef63d3&hm=2fb89e1591a78440ccbcac99f4aec9b8fc2acbd3258150e2c1e9d98d6c37da97&')"
+    },
+    {   
+        "name": "Clash Of Clans Paketi",
+        "levels": [
+            "oblivion",
+            "cognition",
+            "carcano"
+        ],
+        "colour": "url('https://w0.peakpx.com/wallpaper/574/1018/HD-wallpaper-clash-of-clans.jpg')"
+    },
+    {   
+        "name": "Türk Femboy Paketi",
+        "levels": [
+            "kowareta",
+            "wasureta"
+        ],
+        "colour": "url('https://preview.redd.it/kinda-wish-i-had-a-foreigner-friend-i-could-share-memes-v0-hnb33t93ey1c1.jpeg?width=640&crop=smart&auto=webp&s=9a1085184cccfdb6308e1a5e821db4976ec9e571')"
+    },
+
+
+
+    {   
+        "name": "İLAH",
+        "levels": [
+            "oblivion",
+            "cognition",
+            "rust"
+        ],
+        "colour": "url('https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b1e7f11-d79f-4fe5-9b64-8c104b005786/width=450/00092-3586771852.0.jpeg')"
+    }
+]
