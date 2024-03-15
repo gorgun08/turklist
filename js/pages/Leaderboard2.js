@@ -24,7 +24,7 @@ export default {
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                     <router-link to="/leaderboard">
-                    <button class=button>Demon List Oyuncu Listesi</button>
+                    <button class=button>Demon List Oyuncu Sıralaması</button>
                     </router-link>
                 </div>
                 <div class="board-container surface">
