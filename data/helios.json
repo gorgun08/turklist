@@ -3,10 +3,16 @@
     "name": "Helios",
     "author": "Canonlaw",
     "creators": ["Canonlaw"],
-    "verifier": "RD24GD",
-    "verification": "https://www.youtube.com/watch?v=ItK65iJlUXo",
+    "verifier": "quadra33",
+    "verification": "https://www.youtube.com/watch?v=IvAhOgk6uOM",
     "percentToQualify": 100,
     "records": [
+        {
+            "user": "RD24GD",
+            "link": "https://www.youtube.com/watch?v=ItK65iJlUXo",
+            "percent": 100,
+            "hz": 360
+        },
         {
             "user": "Pisagor",
             "link": "https://youtu.be/D5OgdrdQzZ4",
