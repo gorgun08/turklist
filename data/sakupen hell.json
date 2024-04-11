@@ -7,6 +7,11 @@
     "verification": "https://youtu.be/T4-OlL0XOIA",
     "percentToQualify": 74,
     "records": [
-
+        {
+            "user": "Pikonom",
+            "link": "https://www.youtube.com/watch?v=aRPz9ic3T8s",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
