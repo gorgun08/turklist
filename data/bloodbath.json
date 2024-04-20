@@ -48,6 +48,12 @@
             "link": "https://youtu.be/Lcoh0psQ_uw",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "sillywilly",
+            "link": "https://www.youtube.com/watch?v=6hlT_x5zeq8&t=6s",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
