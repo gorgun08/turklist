@@ -51,9 +51,21 @@
         },
         {
             "user": "sillywilly",
+<<<<<<< HEAD
             "link": "https://www.youtube.com/watch?v=6hlT_x5zeq8&t=6s",
             "percent": 100,
             "hz": 240
+=======
+            "link": "https://youtu.be/6hlT_x5zeq8",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Cukel31",
+            "link": "https://youtu.be/heIP-Z7Vywc",
+            "percent": 73,
+            "hz": 360
+>>>>>>> a325cb18134e2090b681f882e2f638bad2862483
         }
     ]
 }
