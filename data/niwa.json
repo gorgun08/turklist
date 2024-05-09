@@ -24,6 +24,12 @@
             "link": "https://youtu.be/s9hZe9VwTa4",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "muixie",
+            "link": "https://www.youtube.com/watch?v=wCmsMphjPm0&ab_channel=muixie",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
