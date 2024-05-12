@@ -63,10 +63,6 @@ export default {
                             <div class="type-title-sm">ID</div>
                             <p>{{ level.id }}</p>
                         </li>
-                        <li>
-                            <div class="type-title-sm">Levelin Şifresi</div>
-                            <p>{{ level.password || 'Yok' }}</p>
-                        </li>
                     </ul>
                     <h2>Recordlar</h2>
                     <p v-if="selected + 1 <= 50">Record atabilmek için <strong>{{ level.percentToQualify }}%</strong> ya da daha fazla yap</p>
