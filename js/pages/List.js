@@ -66,7 +66,7 @@ export default {
                     </ul>
                     <h2>Recordlar</h2>
                     <p v-if="selected + 1 <= 50">Record atabilmek için <strong>{{ level.percentToQualify }}%</strong> ya da daha fazla yap</p>
-                    <p v-else-if="selected +1 <= 100">Record atabilmek için <strong>100%</strong> ya da daha fazla yap</p>
+                    <p v-else-if="selected +1 <= 100">Record atabilmek için <strong>100%</strong> yap</p>
                     <p v-else>Bu level yeni recordları kabul etmiyor.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">

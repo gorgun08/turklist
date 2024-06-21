@@ -49,14 +49,11 @@ export default {
                             <div class="type-title-sm">ID</div>
                             <p>{{ selectedPackLevels[selectedLevel][0].level.id }}</p>
                         </li>
-                        <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ selectedPackLevels[selectedLevel][0].level.password || 'Free to Copy' }}</p>
-                        </li>
                     </ul>
-                    <h2>Records</h2>
-                    <p v-if="selected + 1 <= 150"><strong>{{ selectedPackLevels[selectedLevel][0].level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else>100% or better to qualify</p>
+                    <h2>Recordlar</h2>
+                    <p v-if="selected + 1 <= 50">Record atabilmek için <strong>{{ selectedPackLevels[selectedLevel][0].level.percentToQualify }}%</strong> ya da daha fazla yap</p>
+                    <p v-else>Record atabilmek için 100% yap</p>
+                    <p v-else>Bu level yeni recordları kabul etmiyor.</p>
                     <table class="records">
                         <tr v-for="record in selectedPackLevels[selectedLevel][0].level.records" class="record">
                             <td class="percent">
@@ -69,7 +66,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store?.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}Hz</p>
+                                <p>{{ record.hz }}FPS</p>
                             </td>
                         </tr>
                     </table>
