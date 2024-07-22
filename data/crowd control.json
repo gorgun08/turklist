@@ -12,6 +12,12 @@
             "link": "https://youtu.be/lCKws5FnpIM",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "asdfqwerguy",
+            "link": "https://www.youtube.com/watch?v=fXRCiiTdodM",
+            "percent": 100,
+            "hz": 240    
         }
     ]
 }
