@@ -12,6 +12,12 @@
             "percent": 100,
             
             "hz": 240
+        },
+        {
+            "user": "ccloudy",
+            "link": "https://www.youtube.com/watch?v=wqD2EWaCIa8",
+            "percent": 100,
+            "hz": 60
         }
 
     ]
