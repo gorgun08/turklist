@@ -72,6 +72,12 @@
             "link": "https://youtu.be/heIP-Z7Vywc",
             "percent": 73,
             "hz": 360
+        },
+        {
+            "user": "Fare",
+            "link": "https://www.youtube.com/watch?v=OutxDOW1XUs",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
