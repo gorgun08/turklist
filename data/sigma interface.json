@@ -12,6 +12,12 @@
             "link": "https://youtu.be/K4MF_5BQ690",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "etherealstorm",
+            "link": "https://youtu.be/Woj3MieELBs?si=iykvtOIwqqqHdGr_",
+            "percent": 100,
+            "hz": "72/144"
         }
     ]
 }
