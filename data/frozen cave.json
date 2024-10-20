@@ -8,6 +8,11 @@
     "verification": "https://www.youtube.com/watch?v=CD0OvUJleLc&ab_channel=GDHolojen",
     "percentToQualify": 55,
     "records": [
-
+        {
+            "user": "youngs6",
+            "link": "https://youtu.be/sdglkqbocP4",
+            "percent": 100,
+            "hz": "360"
+        }
     ]
 }
