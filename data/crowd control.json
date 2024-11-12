@@ -18,6 +18,12 @@
             "link": "https://www.youtube.com/watch?v=fXRCiiTdodM",
             "percent": 100,
             "hz": 240    
+        },
+        {
+            "user": "WeGuysAreMad",
+            "link": "https://youtu.be/K1S8-kPEEIU",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
