@@ -7,6 +7,11 @@
     "verification": "https://youtu.be/_lDEuR3BzbI",
     "percentToQualify": 56,
     "records": [
-
+        {
+            "user": "Notar",
+            "link": "https://youtu.be/0ML8udv2j00",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
