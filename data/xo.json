@@ -3,15 +3,10 @@
     "name": "xo",
     "author": "KrmaL",
     "creators": ["KrmaL"],
-    "verifier": "Keremino",
-    "verification": "https://www.youtube.com/watch?v=W_s2LYwOjB4",
+    "verifier": "Yaksis",
+    "verification": "https://youtu.be/xf4JIV0oO4A",
     "percentToQualify": 51,
     "records": [
-         {
-            "user": "Yaksis",
-            "link": "https://youtu.be/xf4JIV0oO4A",
-            "percent": 100,
-            "hz": 240
-        }
+       
     ]
 }
