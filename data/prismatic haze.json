@@ -18,6 +18,12 @@
             "link": "https://www.youtube.com/watch?v=rzuvf48TJmo",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "Holojen",
+            "link": "https://youtu.be/IMYbCmCLvRs",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

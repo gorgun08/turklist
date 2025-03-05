@@ -18,6 +18,12 @@
             "link": "https://www.youtube.com/watch?v=wqD2EWaCIa8",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "player71",
+            "link": "https://youtu.be/nLM6-qICjmk",
+            "percent": 100,
+            "hz": 144
         }
 
     ]
