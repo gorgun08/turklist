@@ -90,6 +90,12 @@
             "link": "https://youtu.be/yZrR3Z7fGCE?si=E0_fsyOZBvA1QMDh",
             "percent": 100,
             "hz": 120
-        }
+        },
+        {
+            "user": "u_chr",
+            "link": "https://www.youtube.com/watch?v=0L42I-clKZo",
+            "percent": 100,
+            "hz": "330/240"
+        },
     ]
 }
