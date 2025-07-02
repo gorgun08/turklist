@@ -3,16 +3,10 @@
     "name": "Sakupen Hell",
     "author": "TrusTa",
     "creators": ["Noobas"],
-    "verifier": "etherealstorm",
-    "verification": "https://youtu.be/T4-OlL0XOIA",
+    "verifier": "Pikonom",
+    "verification": "https://www.youtube.com/watch?v=aRPz9ic3T8s",
     "percentToQualify": 74,
     "records": [
-        {
-            "user": "Pikonom",
-            "link": "https://www.youtube.com/watch?v=aRPz9ic3T8s",
-            "percent": 100,
-            "hz": 480
-        },
         {
             "user": "Keremino",
             "link": "https://youtu.be/uwD6x6t837k?si=CuCNfKqB8gk0c9zJ",
