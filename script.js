@@ -4,6 +4,12 @@ setInterval(()=>{
     counter.innerText = count;
     count++
     
-    if(count > 3) location.replace('https://turklist.xyz')
+    if (count > 3) {
+            clearInterval(interval);
+            setTimeout(() => {
+                location.replace('https://turklist.xyz');
+            }, 5000);
+        }
+    
     
 },500)
