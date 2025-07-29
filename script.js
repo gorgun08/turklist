@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (count > 3) {
             clearInterval(interval);
             setTimeout(() => {
-                location.replace('https://turklist.xyz');
-            }, 5000);
+                location.replace('https://trlist.fly.dev/');
+            }, 1000);
         }
     }, 500);
 });
